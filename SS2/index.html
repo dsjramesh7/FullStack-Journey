@@ -1,0 +1,117 @@
+<!-- html is a markup language its not a programming language
+html is like structure of the website without html you can not create a website  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML and CSS Basic Learning</title>
+    <!-- link for external css  -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- internal css  -->
+    <style>
+      .real-name {
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-content">
+      <header>
+        <nav id="navbar">
+          <div class="logo">DragonBallHehe</div>
+          <ul id="menu-list">
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item"><a href="#">About</a></li>
+            <li class="menu-item"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <h1 class="title">Son Goku</h1>
+
+      <h2>
+        The <span class="real-name">Kakarot</span> of the <span>Universe</span>
+      </h2>
+
+      <p class="description">
+        Son Goku is a fictional character and the main protagonist of the Dragon
+        Ball manga series created by Akira Toriyama. He is based on Sun Wukong,
+        combined with influences from Jackie Chan and Bruce Lee.
+      </p>
+
+      <h3>Favourite Hobbies</h3>
+      <ul>
+        <li>Fighting</li>
+        <li>Eating</li>
+        <li>Pushing the limits</li>
+      </ul>
+
+      <form action="" class="form">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter your Name" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your Email" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your Password"
+          />
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            placeholder="Enter your Message"
+            rows="8"
+          ></textarea>
+        </div>
+        <button class="form-btn">Send Spirit Bomb 💥</button>
+      </form>
+
+      <a
+        target="_blank"
+        class="video-link"
+        href="https://www.youtube.com/watch?v=_STGwUJyqy8"
+        >Go To See Me LOL</a
+      >
+
+      <div class="levels">
+        <h1>Levels</h1>
+        <div>
+          <h3>Super Saiyan 1</h3>
+          <p>The first form of saiyan level which was so cool</p>
+          <button class="power-btn">Click me</button>
+        </div>
+      </div>
+
+      <div class="power-level">
+        <h3>Power Level</h3>
+        <p>Over 9000!!!</p>
+      </div>
+
+      <div id="ssj2-section">
+        <h3>Super Saiyan 2</h3>
+        <p>Faster, stronger, and more lightning!</p>
+      </div>
+
+      <div class="footer">
+        <p>
+          &copy; 2025 DragonBallHehe | Made by Goku's fan and adrakwali Chai☕
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
